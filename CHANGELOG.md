@@ -6,7 +6,8 @@
 
 ##### New Features
 
-- **Menu, MenuItem:** created util components (d91b9e87)
+- **Title:** add util component (e62fec34)
+- **Menu, MenuItem:** created util components (e790a00a)
 - **CenterInfoLine:** created util component (e7e4553d)
 
 ##### Refactors
