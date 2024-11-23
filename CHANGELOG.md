@@ -2,7 +2,11 @@
 
 ##### New Features
 
-- **Button:** add util component (e3e54c1c)
+- **Button:** add util component (858a6c97)
+
+##### Bug Fixes
+
+- **Menu:** fix paddings (8fa70b9b)
 
 #### 0.0.0 (2024-11-23)
 

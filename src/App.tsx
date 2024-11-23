@@ -1,3 +1,4 @@
+import Button from './components/Button';
 import CenterInfoLine from './components/CenterInfoLine';
 import Menu from './components/Menu';
 import MenuItem from './components/MenuItem';
@@ -19,8 +20,9 @@ function App() {
 					<MenuItem linkUrl='/'>About</MenuItem>
 					<MenuItem linkUrl='/'>Articles</MenuItem>
 					<MenuItem linkUrl='/'>Contact</MenuItem>
-					<div>
+					<div className='flex'>
 						<PhoneNumber color='dark' value='(123) 456-7890'/>
+						<Button color='dark'>Request Consultation</Button>
 					</div>
 				</Menu>
 			</Content>
