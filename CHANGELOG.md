@@ -6,7 +6,8 @@
 
 ##### Bug Fixes
 
-- **Menu:** fix paddings (8fa70b9b)
+- **CenterInfoLine:** fix name of variable to real (ca09bfc5)
+- **Menu:** fix paddings (ba95b0e8)
 
 #### 0.0.0 (2024-11-23)
 
