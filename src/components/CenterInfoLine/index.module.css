@@ -1,6 +1,6 @@
 .info-line {
     background-color: var(--app-main-bg-color);
-    color: var(--secondary-text-color);
+    color: var(---info-line-text-color);
     font-family: var(--font-family);
     font-size: 18px;
     font-weight: 400;
