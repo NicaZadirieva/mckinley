@@ -1,3 +1,9 @@
+#### 0.0.1 (2024-11-23)
+
+##### New Features
+
+- **Button:** add util component (e3e54c1c)
+
 #### 0.0.0 (2024-11-23)
 
 ##### Chores

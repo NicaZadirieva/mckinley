@@ -1,5 +1,6 @@
 :root {
     --app-main-bg-color: #00486D;
+    --app-light-bg-color: #F2F6F7;
 
     --font-family: 'DM Sans';
 
@@ -16,4 +17,10 @@ body {
 .restrict-content-size {
     max-width: 1270px;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 32px;
 }
