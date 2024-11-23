@@ -6,7 +6,8 @@
 
 ##### New Features
 
-- **PhoneNumber:** add util component (792b256a)
+- demo of components (4c9c5abb)
+- **PhoneNumber:** add util component (cb83e7d3)
 - **Title:** add util component (30e53dbf)
 - **Menu, MenuItem:** created util components (e790a00a)
 - **CenterInfoLine:** created util component (e7e4553d)
