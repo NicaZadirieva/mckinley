@@ -6,4 +6,9 @@
 
 ##### New Features
 
-- **CenterInfoLine:** created util component (e84c9095)
+- **Menu, MenuItem:** created util components (d91b9e87)
+- **CenterInfoLine:** created util component (e7e4553d)
+
+##### Refactors
+
+- **index.css:** renaming of variable (bafbb3ce)
