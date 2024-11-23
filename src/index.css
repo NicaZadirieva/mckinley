@@ -1,0 +1,15 @@
+:root {
+    --app-main-bg-color: #00486D;
+    --secondary-text-color: #99B6C5;
+
+    --font-family: 'DM Sans';
+
+    --min-content-size: 1440px;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.restrict-content-size {
+    min-width: var(--max-content-size)
+}

@@ -2,5 +2,8 @@
 
 ##### Chores
 
-*  init empty project (51ac9ca0)
+- init empty project (d148de50)
 
+##### New Features
+
+- **CenterInfoLine:** created util component (e84c9095)
