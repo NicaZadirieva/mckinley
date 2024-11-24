@@ -1,5 +1,6 @@
 import Button from './components/Button';
 import CenterInfoLine from './components/CenterInfoLine';
+import LegalServices from './components/LegalServices';
 import Menu from './components/Menu';
 import MenuItem from './components/MenuItem';
 import PhoneNumber from './components/PhoneNumber';
@@ -29,6 +30,7 @@ function App() {
 			</Content>
 			
 			<RequestConsultation/>
+			<Content><LegalServices/></Content>
 		</>
 	);
 }

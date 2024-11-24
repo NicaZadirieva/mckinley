@@ -1,5 +1,12 @@
 .main {
-    color: var(--dark-text-color);
     font-weight: 400;
     line-height: 42px;
+}
+
+.dark {
+    color: var(--dark-text-color);
+}
+
+.light {
+    color: var(--light-text-color);
 }

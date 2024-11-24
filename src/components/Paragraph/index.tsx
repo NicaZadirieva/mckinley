@@ -1,8 +1,12 @@
+import cn from 'classnames';
 import styles from './index.module.css';
-export default function Paragraph({ text, size }: { text: string, size: number}) {
+export default function Paragraph({ text, size, color='dark' }: { text: string, size: number, color?: 'dark' | 'light'}) {
 	const fontSize = `${size} px`;
 
 	return (
-		<p style={{ fontSize }} className={styles['main']}>{text}</p>
+		<p style={{ fontSize }} className={cn(styles['main'], {
+			[styles['dark']]: color == 'dark',
+			[styles['light']]: color == 'light'
+		})}>{text}</p>
 	);
 }

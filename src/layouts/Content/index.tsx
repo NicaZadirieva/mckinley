@@ -1,8 +1,8 @@
+import cn from 'classnames';
 import { ReactNode } from 'react';
-
-export default function Content({ children } : {children: ReactNode}) {
+export default function Content({ children, className } : {children: ReactNode, className?: string}) {
 	return (
-		<div className='restrict-content-size'>
+		<div className={cn('restrict-content-size', className)}>
 			{children}
 		</div>
 	);

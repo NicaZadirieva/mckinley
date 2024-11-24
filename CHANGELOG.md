@@ -2,7 +2,8 @@
 
 ##### New Features
 
-- add RequestConsultation block (d176fb6d)
+- add LegalServices (third block) (db6d7dc0)
+- add RequestConsultation block (1f989724)
 
 #### 0.0.1 (2024-11-23)
 

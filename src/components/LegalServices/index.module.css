@@ -1,0 +1,27 @@
+.legal-services {
+    background: url('/man.png');
+    background-size: cover;
+    position: relative;
+    height: 680px;
+}
+.about {
+    background: var(--app-main-bg-color);
+    width: 423px;
+    padding-top: 53px;
+    padding-left: 56px;
+    padding-bottom: 72px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.title {
+    font-family: var(--secondary-font-family);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    max-width: 220px;
+}
+
+.button {
+    margin-top: 60px;
+}
