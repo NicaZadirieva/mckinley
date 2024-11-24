@@ -1,3 +1,9 @@
+#### 0.0.2 (2024-11-24)
+
+##### New Features
+
+- add RequestConsultation block (d176fb6d)
+
 #### 0.0.1 (2024-11-23)
 
 ##### New Features

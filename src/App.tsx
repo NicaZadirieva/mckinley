@@ -3,6 +3,7 @@ import CenterInfoLine from './components/CenterInfoLine';
 import Menu from './components/Menu';
 import MenuItem from './components/MenuItem';
 import PhoneNumber from './components/PhoneNumber';
+import RequestConsultation from './components/RequestConsultation';
 import Title from './components/Title';
 import Content from './layouts/Content';
 
@@ -26,6 +27,8 @@ function App() {
 					</div>
 				</Menu>
 			</Content>
+			
+			<RequestConsultation/>
 		</>
 	);
 }
