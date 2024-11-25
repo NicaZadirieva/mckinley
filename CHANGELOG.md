@@ -2,7 +2,8 @@
 
 ##### New Features
 
-- **Card:** create util component (2afd15bb)
+- **PracticalArea:** add block (58edaa71)
+- **Card:** create util component (a18a941e)
 
 #### 0.0.2 (2024-11-24)
 
