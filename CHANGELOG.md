@@ -2,7 +2,8 @@
 
 ##### New Features
 
-- **PracticalArea:** add block (58edaa71)
+- **Articles:** add Articles, modify Card (c3680bcf)
+- **PracticalArea:** add block (98f331dd)
 - **Card:** create util component (a18a941e)
 
 #### 0.0.2 (2024-11-24)

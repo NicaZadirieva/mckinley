@@ -5,8 +5,7 @@
     border: 1px solid rgb(228, 236, 240);
     border-radius: 2px;
     box-shadow: 0px 24px 24px 0px rgba(0, 72, 109, 0.2);
-    padding: 44px 0 0 33px;
-    height: 442px;
+
     box-sizing: border-box;
 }
 .title {
@@ -14,10 +13,12 @@
 }
 .svg-card {
     max-width: 397px;
+    padding: 44px 0 0 33px;
+    height: 442px;
 }
 .svg-icon {
     display: block;
-    font-family: DM Sans;
+    font-family: var(--font-family);
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
@@ -26,16 +27,42 @@
 }
 
 .image-card {
-    max-width: 395px;
+    width: 395px;
+    /*260px - image-icon + 248px main-content*/
+    height: calc(260px + 248px);
+
+}
+.image-card .main-content {
+    box-sizing: border-box;
+    width: 294px;
+    padding-left: 32px;
+    padding-top: 40px;
+
+}
+.image-card .main-content .paragraph {
+    line-height: 33px;
 }
 
+.image-card .learn-more-btn .paragraph {
+    line-height: 35px;
+}
+.image-card .title {
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 400;
+}
+.image-icon {
+    height: 260px;
+}
 .learn-more-btn {
     display: flex;
     align-items: center;
     text-decoration: none;
     gap: 16px;
 }
-
+.image-card .learn-more-btn {
+    margin-left: 32px;
+} 
 .arrow-icon {
     background-image: url('./arrow-icon.svg');
     width: 19px;

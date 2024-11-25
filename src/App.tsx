@@ -1,3 +1,4 @@
+import Articles from './components/Articles';
 import Button from './components/Button';
 import CenterInfoLine from './components/CenterInfoLine';
 import LegalServices from './components/LegalServices';
@@ -33,6 +34,7 @@ function App() {
 			<RequestConsultation/>
 			<Content><PracticalArea/></Content>
 			<Content><LegalServices/></Content>
+			<Content><Articles/></Content>
 		</>
 	);
 }

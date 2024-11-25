@@ -4,6 +4,7 @@ import { IconImage } from '../shared/iconImage.interface';
 import Title from '../Title';
 import styles from './index.module.css';
 export default function Card({ id, iconUrl, title, info } : { id: string, iconUrl: IconImage, title: string, info: string}) {
+	const PARAGRAPH_SIZE = iconUrl.type == 'svg' ? 20 : 22;
 	return (
 		<div className={
 			cn({
@@ -18,10 +19,10 @@ export default function Card({ id, iconUrl, title, info } : { id: string, iconUr
 				})} />
 			<div className={styles['main-content']}>
 				<Title className={styles['title']} text={title} color='dark' size='h2'/>
-				<Paragraph text={info} color='dark' size={20}/>
+				<Paragraph className={styles['paragraph']} text={info} color='dark' size={PARAGRAPH_SIZE}/>
 			</div>
 			<a href='#' className={styles['learn-more-btn']}>
-				<Paragraph text='Learn more' size={19}/>
+				<Paragraph className={styles['paragraph']} text='Learn more' size={19}/>
 				<div className={styles['arrow-icon']}></div>
 			</a>
 		</div>
