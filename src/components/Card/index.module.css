@@ -1,0 +1,43 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(228, 236, 240);
+    border-radius: 2px;
+    box-shadow: 0px 24px 24px 0px rgba(0, 72, 109, 0.2);
+    padding: 44px 0 0 33px;
+    height: 442px;
+    box-sizing: border-box;
+}
+.title {
+    font-weight: 400;
+}
+.svg-card {
+    max-width: 397px;
+}
+.svg-icon {
+    display: block;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    width: 60px;
+    height: 60px;
+}
+
+.image-card {
+    max-width: 395px;
+}
+
+.learn-more-btn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 16px;
+}
+
+.arrow-icon {
+    background-image: url('./arrow-icon.svg');
+    width: 19px;
+    height: 14px;
+}

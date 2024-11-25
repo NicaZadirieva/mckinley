@@ -12,6 +12,7 @@ export default function RequestConsultation() {
 		<div className={styles['request-consult']}>
 			<div className={styles['left']}>
 				<div className={styles['gap-16']}>
+					{/**TODO: сделать отдельным компонентом */}
 					<div className={styles['circle-container']}>
 						<div className={styles['circle']}></div>
 						<div className={styles['circle']}></div>

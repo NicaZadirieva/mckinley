@@ -1,3 +1,9 @@
+#### 0.0.3 (2024-11-25)
+
+##### New Features
+
+- **Card:** create util component (2afd15bb)
+
 #### 0.0.2 (2024-11-24)
 
 ##### New Features
