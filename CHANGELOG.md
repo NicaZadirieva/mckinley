@@ -2,7 +2,8 @@
 
 ##### New Features
 
-- **QuoteSlider:** impl + demo (e3268472)
+- **NeedConsultation:** add NeedConsultation block (3279d92d)
+- **QuoteSlider:** impl + demo (2009f53e)
 
 #### 0.0.3 (2024-11-30)
 

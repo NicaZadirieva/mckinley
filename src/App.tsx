@@ -6,6 +6,7 @@ import CenterInfoLine from './components/CenterInfoLine';
 import LegalServices from './components/LegalServices';
 import Menu from './components/Menu';
 import MenuItem from './components/MenuItem';
+import NeedConsultation from './components/NeedConsultation';
 import PhoneNumber from './components/PhoneNumber';
 import PracticalArea from './components/PracticalArea';
 import QuoteSlider from './components/QuoteSlider';
@@ -37,8 +38,12 @@ function App() {
 			<RequestConsultation/>
 			<Content><PracticalArea/></Content>
 			<Content><LegalServices/></Content>
-			<Content><Articles/></Content>
 			<Content><QuoteSlider/></Content>
+			<Content><Articles/></Content>
+			<NeedConsultation title='Need professional legal advice?' 
+				description='Get a free consultation with our legal experts'
+			/>
+
 		</>
 	);
 }
