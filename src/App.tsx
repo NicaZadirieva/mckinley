@@ -1,3 +1,5 @@
+import 'slick-carousel/slick/slick-theme.css';
+import 'slick-carousel/slick/slick.css';
 import Articles from './components/Articles';
 import Button from './components/Button';
 import CenterInfoLine from './components/CenterInfoLine';
@@ -6,7 +8,7 @@ import Menu from './components/Menu';
 import MenuItem from './components/MenuItem';
 import PhoneNumber from './components/PhoneNumber';
 import PracticalArea from './components/PracticalArea';
-import QuoteSlideItem from './components/QuoteSlideItem';
+import QuoteSlider from './components/QuoteSlider';
 import RequestConsultation from './components/RequestConsultation';
 import Title from './components/Title';
 import Content from './layouts/Content';
@@ -36,11 +38,7 @@ function App() {
 			<Content><PracticalArea/></Content>
 			<Content><LegalServices/></Content>
 			<Content><Articles/></Content>
-			<Content><QuoteSlideItem
-				quote={`The team at McKinley always delivers thoughtful and 
-					professional legal services in a timely manner.`}
-				author='John Smith, Tax Law Client'
-			/></Content>
+			<Content><QuoteSlider/></Content>
 		</>
 	);
 }

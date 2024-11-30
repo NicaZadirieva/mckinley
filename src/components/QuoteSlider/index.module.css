@@ -1,0 +1,21 @@
+.next-arrow {
+    background-image: url('/next-arrow-slider.svg');
+}
+
+.prev-arrow {
+    background-image: url('/next-arrow-slider.svg');
+    transform: scaleX(-1); /* Flip the arrow */
+}
+
+.next-arrow, .prev-arrow {
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 372px;
+    position: absolute;
+    top: -200px;
+}
+
+.next-slick-arrow {
+    position: relative;
+    height: 620px;
+}

@@ -1,3 +1,9 @@
+#### 0.0.4 (2024-11-30)
+
+##### New Features
+
+- **QuoteSlider:** impl + demo (e3268472)
+
 #### 0.0.3 (2024-11-30)
 
 ##### New Features
