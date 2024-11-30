@@ -1,10 +1,14 @@
-#### 0.0.3 (2024-11-25)
+#### 0.0.3 (2024-11-30)
 
 ##### New Features
 
-- **Articles:** add Articles, modify Card (c3680bcf)
+- **Articles:** add Articles, modify Card (5cca5829)
 - **PracticalArea:** add block (98f331dd)
 - **Card:** create util component (a18a941e)
+
+##### Bug Fixes
+
+- **Card:** now text in cards baselined (9309c84f)
 
 #### 0.0.2 (2024-11-24)
 
