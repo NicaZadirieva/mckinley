@@ -6,14 +6,16 @@
 
 ##### New Features
 
-- **Input:** create util Input without css (38d41f5d)
+- **Input:**
+  - create Input with css (b3fa22ee)
+  - create util Input without css (38d41f5d)
 - **NeedConsultation:** add NeedConsultation block (f244b28d)
 - **QuoteSlider:** impl + demo (2009f53e)
 
 ##### Bug Fixes
 
 - **Card:**
-  - clear warning with a (cb3b5840)
+  - clear warning with a (b8879ecf)
   - clear ts error (a3eeb623)
 - **MenuItem:** clear warning (75859083)
 
