@@ -11,7 +11,7 @@
     --dark-text-color: #00486D;
     --light-text-color: #FFFFFF;
     --info-line-text-color: #99B6C5;
-    --contact-email-text-color: #99B6C5;
+    --contact-text-color: #99B6C5;
     /*85px - расстояние от логотипа до левого края на макете, 
     40px - расстояние от nav до контента в меню*/
     --main-padding--left: calc(85px + 40px);

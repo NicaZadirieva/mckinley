@@ -6,6 +6,7 @@
 
 ##### New Features
 
+- **Contacts:** add entity (e24a4f65)
 - **Input:**
   - create Input with css (04a365e1)
   - create util Input without css (38d41f5d)
@@ -17,12 +18,11 @@
 - **Card:**
   - clear warning with a (b8879ecf)
   - clear ts error (a3eeb623)
-  - now text in cards baselined (a3cb679e)
 - **MenuItem:** clear warning (75859083)
 
 ##### Refactors
 
-- renaming style vars (aecac3ea)
+- renaming style vars (36bc7fac)
 - move to fsd (b90c29c7)
 
 #### 0.0.3 (2024-11-30)
