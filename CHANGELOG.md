@@ -1,5 +1,9 @@
 #### 0.0.4 (2024-12-01)
 
+##### Chores
+
+- **Contacts:** create structure (1d3aed6c)
+
 ##### New Features
 
 - **NeedConsultation:** add NeedConsultation block (f244b28d)
@@ -7,7 +11,7 @@
 
 ##### Refactors
 
-- move to fsd (ba8b9667)
+- move to fsd (b90c29c7)
 
 #### 0.0.3 (2024-11-30)
 
