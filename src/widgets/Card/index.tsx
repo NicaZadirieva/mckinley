@@ -4,7 +4,7 @@ import { IconImage } from '../../shared';
 import Paragraph from '../Paragraph';
 import Title from '../Title';
 import styles from './index.module.css';
-export default function Card({ id, iconUrl, title, info } : { id: string, iconUrl: IconImage, title: string, info: string}) {
+export default function Card({ iconUrl, title, info } : { id: string, iconUrl: IconImage, title: string, info: string}) {
 	const PARAGRAPH_SIZE = iconUrl.type == 'svg' ? 20 : 22;
 	return (
 		<div className={

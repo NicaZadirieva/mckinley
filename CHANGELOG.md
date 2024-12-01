@@ -12,7 +12,9 @@
 
 ##### Bug Fixes
 
-- **MenuItem:** clear warning (fec7ec1e)
+- **Card:**
+  - clear ts error (b322dac5)
+- **MenuItem:** clear warning (75859083)
 
 ##### Refactors
 
