@@ -6,7 +6,7 @@
 
 ##### New Features
 
-- **Contacts:** add entity (e24a4f65)
+- **Contacts:** add entity (5302ad3b)
 - **Input:**
   - create Input with css (04a365e1)
   - create util Input without css (38d41f5d)
@@ -16,6 +16,7 @@
 ##### Bug Fixes
 
 - **Card:**
+  - fix position of text (8777e357)
   - clear warning with a (b8879ecf)
   - clear ts error (a3eeb623)
 - **MenuItem:** clear warning (75859083)

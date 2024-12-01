@@ -35,6 +35,12 @@
     height: calc(260px + 248px);
 
 }
+
+.main-content {
+    max-width: 328px;
+
+}
+
 .image-card .main-content {
     box-sizing: border-box;
     width: 294px;
