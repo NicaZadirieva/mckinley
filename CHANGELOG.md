@@ -13,7 +13,8 @@
 ##### Bug Fixes
 
 - **Card:**
-  - clear ts error (b322dac5)
+  - clear warning with a (cb3b5840)
+  - clear ts error (a3eeb623)
 - **MenuItem:** clear warning (75859083)
 
 ##### Refactors

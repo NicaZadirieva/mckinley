@@ -22,7 +22,7 @@ export default function Card({ iconUrl, title, info } : { id: string, iconUrl: I
 				<Title className={styles['title']} text={title} color='dark' size='h2'/>
 				<Paragraph className={styles['paragraph']} text={info} color='dark' size={PARAGRAPH_SIZE}/>
 			</div>
-			<a href='#' className={styles['learn-more-btn']}>
+			<a aria-label='link learn more' href='#' className={styles['learn-more-btn']}>
 				<Paragraph className={styles['paragraph']} text='Learn more' size={19}/>
 				<div className={styles['arrow-icon']}></div>
 			</a>
