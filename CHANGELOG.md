@@ -15,8 +15,9 @@
 
 ##### Bug Fixes
 
+- **README.md:** adding gif (984e9fb4)
 - **Card:**
-  - fix position of text (8777e357)
+  - fix position of text (e7d33c44)
   - clear warning with a (b8879ecf)
   - clear ts error (a3eeb623)
 - **MenuItem:** clear warning (75859083)
