@@ -1,6 +1,7 @@
 .input-container {
     width: 397px;
     position: relative;
+
 }
 
 .icon {
@@ -12,9 +13,9 @@
 .input {
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid var(--contact-email-text-color);
+    border: 1px solid var(--app-email-bg-color);
     border-radius: 2px;
-    background: var(--contact-email-text-color);
+    background: var(--app-email-bg-color);
     padding-top: 11px;
     padding-bottom: 11px;
     padding-left: 24px;
@@ -22,4 +23,5 @@
     font-size: 19px;
     font-weight: 400;
     line-height: 35px;
+    color: var(--contact-email-text-color);
 }
