@@ -3,13 +3,20 @@ import 'slick-carousel/slick/slick.css';
 
 import { Articles, Content, LegalServices, NeedConsultation, PracticalArea, QuoteSlider, RequestConsultation } from '../entities';
 
+import { useRef } from 'react';
 import { Button, CenterInfoLine, Menu, MenuItem, PhoneNumber, Title } from '../widgets';
+import Input from '../widgets/Input';
 
 function App() {
-
+	const inputRef = useRef(null);
 	return (
     
 		<>
+			<Input
+				placeholder='Email Address'
+				ref={inputRef}
+				onSend={(textToAction: string) => console.log(textToAction)}
+			/>
     	<CenterInfoLine text={'We have moved into our brand new downtown office at the corner of Broadway and Bellview'}/>
 			<Content> 
 			
