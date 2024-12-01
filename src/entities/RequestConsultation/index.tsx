@@ -1,6 +1,6 @@
-import Button from '../Button';
-import Paragraph from '../Paragraph';
-import Title from '../Title';
+import Button from '../../widgets/Button';
+import Paragraph from '../../widgets/Paragraph';
+import Title from '../../widgets/Title';
 import styles from './index.module.css';
 
 const PARAGRAPH_TEXT = `We understand the difficulties and stress 

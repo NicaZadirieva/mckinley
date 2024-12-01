@@ -1,7 +1,6 @@
-import Card from '../Card';
-import Paragraph from '../Paragraph';
-import { isSvg } from '../shared/iconImage.interface';
-import Title from '../Title';
+
+import { isSvg } from '../../shared';
+import { Card, Paragraph, Title } from '../../widgets';
 import styles from './index.module.css';
 export default function PracticalArea() {
 	return (

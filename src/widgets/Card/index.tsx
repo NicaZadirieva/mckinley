@@ -1,6 +1,7 @@
 import cn from 'classnames';
+
+import { IconImage } from '../../shared';
 import Paragraph from '../Paragraph';
-import { IconImage } from '../shared/iconImage.interface';
 import Title from '../Title';
 import styles from './index.module.css';
 export default function Card({ id, iconUrl, title, info } : { id: string, iconUrl: IconImage, title: string, info: string}) {

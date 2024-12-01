@@ -1,6 +1,5 @@
-import Button from '../Button';
-import Paragraph from '../Paragraph';
-import Title from '../Title';
+
+import { Button, Paragraph, Title } from '../../widgets';
 import styles from './index.module.css';
 
 const PARAGRAPH_TEXT = `One size does not fit all 

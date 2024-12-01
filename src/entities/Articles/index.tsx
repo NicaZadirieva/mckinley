@@ -1,6 +1,7 @@
-import Card from '../Card';
-import { isSvg } from '../shared/iconImage.interface';
-import Title from '../Title';
+
+import { isSvg } from '../../shared';
+import Card from '../../widgets/Card';
+import Title from '../../widgets/Title';
 import styles from './index.module.css';
 export default function Articles() {
 	return (

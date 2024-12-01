@@ -1,18 +1,9 @@
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
-import Articles from './components/Articles';
-import Button from './components/Button';
-import CenterInfoLine from './components/CenterInfoLine';
-import LegalServices from './components/LegalServices';
-import Menu from './components/Menu';
-import MenuItem from './components/MenuItem';
-import NeedConsultation from './components/NeedConsultation';
-import PhoneNumber from './components/PhoneNumber';
-import PracticalArea from './components/PracticalArea';
-import QuoteSlider from './components/QuoteSlider';
-import RequestConsultation from './components/RequestConsultation';
-import Title from './components/Title';
-import Content from './layouts/Content';
+
+import { Articles, Content, LegalServices, NeedConsultation, PracticalArea, QuoteSlider, RequestConsultation } from '../entities';
+
+import { Button, CenterInfoLine, Menu, MenuItem, PhoneNumber, Title } from '../widgets';
 
 function App() {
 

@@ -1,6 +1,7 @@
 import { MouseEvent } from 'react';
 import Slider from 'react-slick';
-import QuoteSlideItem from '../QuoteSlideItem';
+
+import { QuoteSlideItem } from '../../widgets';
 import styles from './index.module.css';
 function NextArrow({onClick} : {onClick?: (event: MouseEvent) => void}) {
 	return (
