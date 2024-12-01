@@ -6,9 +6,13 @@
 
 ##### New Features
 
-- **Input:** create util Input without css (044c40b8)
+- **Input:** create util Input without css (38d41f5d)
 - **NeedConsultation:** add NeedConsultation block (f244b28d)
 - **QuoteSlider:** impl + demo (2009f53e)
+
+##### Bug Fixes
+
+- **MenuItem:** clear warning (fec7ec1e)
 
 ##### Refactors
 
