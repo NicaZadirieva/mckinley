@@ -2,12 +2,13 @@
 
 ##### Chores
 
+- add TODO.md (915e7b3c)
 - add forgotten CHANGELOG (784e7ebe)
 
 ##### New Features
 
 - **PracticalArea:**
-  - add api for component (bbf94a95)
+  - add api for component (f8148699)
 - made simple loader (6ef25de2)
 - **ArticlesMockService:** add api (c6822518)
 
