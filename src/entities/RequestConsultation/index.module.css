@@ -14,19 +14,6 @@
     padding-top: 7px;
     padding-left: 29px;
 }
-.circle-container {
-    display: flex;
-    justify-content: space-between;
-    width: 208px;
-}
-
-.circle {
-    background-color: var(--app-consult-circles-bg-color);
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    opacity: 0.6;
-}
 
 .main-content {
     max-width: 563px;

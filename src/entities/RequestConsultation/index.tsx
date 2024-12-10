@@ -1,3 +1,4 @@
+import { Circles } from '../../widgets';
 import Button from '../../widgets/Button';
 import Paragraph from '../../widgets/Paragraph';
 import Title from '../../widgets/Title';
@@ -12,27 +13,8 @@ export default function RequestConsultation() {
 		<div className={styles['request-consult']}>
 			<div className={styles['left']}>
 				<div className={styles['gap-16']}>
-					{/**TODO: сделать отдельным компонентом */}
-					<div className={styles['circle-container']}>
-						<div className={styles['circle']}></div>
-						<div className={styles['circle']}></div>
-						<div className={styles['circle']}></div>
-						<div className={styles['circle']}></div>
-						<div className={styles['circle']}></div>
-						<div className={styles['circle']}></div>
-						<div className={styles['circle']}></div>
-					</div>
-					<div className={styles['circle-container']}>
-						<div className={styles['circle']}></div>
-						<div className={styles['circle']}></div>
-						<div className={styles['circle']}></div>
-						<div className={styles['circle']}></div>
-						<div className={styles['circle']}></div>
-						<div className={styles['circle']}></div>
-						<div className={styles['circle']}></div>
-					</div>
-					
-                        
+					<Circles/>
+					<Circles/>
 				</div>
 				<div className={styles['main-content']}>
 					<Title className={styles['title']} text='Corporate Legal Representation' 

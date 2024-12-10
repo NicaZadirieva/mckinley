@@ -4,7 +4,6 @@
     padding-bottom: 160px;
 }
 .title {
-    /*TODO: посмотреть во всех ли title этот стиль*/
     font-family: var(--secondary-font-family);
     font-size: 44px;
     font-weight: 400;

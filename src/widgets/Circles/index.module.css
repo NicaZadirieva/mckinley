@@ -1,0 +1,13 @@
+.circle-container {
+    display: flex;
+    justify-content: space-between;
+    width: 208px;
+}
+
+.circle {
+    background-color: var(--app-consult-circles-bg-color);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    opacity: 0.6;
+}

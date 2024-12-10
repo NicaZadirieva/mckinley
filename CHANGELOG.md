@@ -1,4 +1,4 @@
-#### 0.0.4 (2024-12-01)
+#### 0.0.4 (2024-12-10)
 
 ##### Chores
 
@@ -15,15 +15,17 @@
 
 ##### Bug Fixes
 
-- **README.md:** adding gif (984e9fb4)
+- **README.md:** adding gif (5a8d29c2)
 - **Card:**
   - fix position of text (e7d33c44)
   - clear warning with a (b8879ecf)
   - clear ts error (a3eeb623)
+  - now text in cards baselined (a3cb679e)
 - **MenuItem:** clear warning (75859083)
 
 ##### Refactors
 
+- **RequestConsultation:** add Circles (f13d635d)
 - renaming style vars (36bc7fac)
 - move to fsd (b90c29c7)
 
