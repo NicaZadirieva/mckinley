@@ -1,7 +1,12 @@
 #### 0.0.5 (2024-12-10)
 
+##### Chores
+
+- add forgotten CHANGELOG (784e7ebe)
+
 ##### New Features
 
+- made simple loader (887ff96e)
 - **ArticlesMockService:** add api (c6822518)
 
 #### 0.0.4 (2024-12-10)

@@ -6,7 +6,7 @@ import Card from '../../widgets/Card';
 import Title from '../../widgets/Title';
 import styles from './index.module.css';
 export default function Articles() {
-	const [articles, setArticles] = useState<IArticle[]>([]);
+	const [articles, setArticles] = useState<IArticle[] | null>(null);
 
 	const getArticles = useCallback(async () => {
 		try {
@@ -14,14 +14,27 @@ export default function Articles() {
 			setArticles(response);
 		} catch (err) {
 			console.error('Failed to fetch articles:', err);
+			setArticles([]);
 		}
 	}, []);
 
 	// Fetch articles from API and set to state
-	// TODO: сделать loader
 	useEffect(() => {
 		getArticles();
 	});
+
+	if (articles === null){
+		return <p>Loading...</p>;
+	};
+
+	if (articles !== null && articles.length == 0){
+		return (
+			<div className={styles['not-found']}>
+				<p>No articles found.</p>
+			</div>
+		);
+	}
+
 	return (
 		<>
 			<Title text={'Recent Articles'} className={styles['title']} size='h1'
