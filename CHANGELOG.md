@@ -6,7 +6,9 @@
 
 ##### New Features
 
-- made simple loader (887ff96e)
+- **PracticalArea:**
+  - add api for component (bbf94a95)
+- made simple loader (6ef25de2)
 - **ArticlesMockService:** add api (c6822518)
 
 #### 0.0.4 (2024-12-10)
