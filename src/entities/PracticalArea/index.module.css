@@ -1,0 +1,11 @@
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 160px;
+}
+.title {
+    font-family: var(--secondary-font-family);
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 52.8px;
+}

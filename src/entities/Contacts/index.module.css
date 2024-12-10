@@ -1,0 +1,44 @@
+.contacts {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--app-main-bg-color);
+    height: 660px;
+    box-sizing: border-box;
+    padding-top: 123px;
+    padding-left: 85px;
+    gap: 226px;
+}
+
+.contacts-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: 40px;
+}
+
+.email {
+    text-decoration: underline;
+}
+
+.social-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 64px;
+}
+
+.social-btn {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+.contact-phone-number, .address, .email, .social-btn {
+    color: var(--contact-text-color);
+}
+
+.contacts-right {
+    max-width: 397px;
+}

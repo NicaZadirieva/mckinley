@@ -1,0 +1,10 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /*явно задала 40px, чтобы не слетела верстка*/
+    padding-left: 40px;
+}

@@ -1,0 +1,12 @@
+.need-consultation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    background-color: var(--app-consult-block-bg-color);
+    height: 545px;
+}
+.button {
+    margin-top: 33px;
+}
