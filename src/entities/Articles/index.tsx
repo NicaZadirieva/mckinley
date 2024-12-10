@@ -1,23 +1,36 @@
 
+import { useCallback, useEffect, useState } from 'react';
+import { ArticlesMockService, IArticle } from '../../api/Articles';
 import { isSvg } from '../../shared';
 import Card from '../../widgets/Card';
 import Title from '../../widgets/Title';
 import styles from './index.module.css';
 export default function Articles() {
+	const [articles, setArticles] = useState<IArticle[]>([]);
+
+	const getArticles = useCallback(async () => {
+		try {
+			const response : IArticle[] = await ArticlesMockService.getArticles();
+			setArticles(response);
+		} catch (err) {
+			console.error('Failed to fetch articles:', err);
+		}
+	}, []);
+
+	// Fetch articles from API and set to state
+	// TODO: сделать loader
+	useEffect(() => {
+		getArticles();
+	});
 	return (
 		<>
 			<Title text={'Recent Articles'} className={styles['title']} size='h1'
 				color='dark'/>
-			{/**TODO: сделать api */}
+
 			<div className={styles['main-container']}>
-				<Card id={'1'} iconUrl={{dataSource: '/web-design.png', type: isSvg('/web-design.png') ? 'svg' : 'image'}} title='December 13, 2020' info={`
-				12 Things About Web Design Your Boss Wants To Know`}/>
-
-				<Card id={'2'} iconUrl={{dataSource: '/history-design.png', type: isSvg('/history-design.png') ? 'svg' : 'image'}} title='December 10, 2020' info={`
-				The History Of Web Design`}/>
-
-				<Card id={'3'} iconUrl={{dataSource: '/improve-process.png', type: isSvg('/improve-process.png') ? 'svg' : 'image'}} title='December 10, 2020' info={`
-				How to improve Web Design Process`}/>
+				{articles.map((article: IArticle) => {
+					return <Card key={article.id} id={article.id} iconUrl={{dataSource: article.iconUrl.dataSource, type: isSvg(article.iconUrl.dataSource) ? 'svg' : 'image'}} title={article.title} info={article.info}/>;
+				})}
 			</div>
 		</>
 	);
