@@ -1,3 +1,9 @@
+#### 0.0.5 (2024-12-10)
+
+##### New Features
+
+- **ArticlesMockService:** add api (c6822518)
+
 #### 0.0.4 (2024-12-10)
 
 ##### Chores
