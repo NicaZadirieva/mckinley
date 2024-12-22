@@ -14,7 +14,8 @@
 
 ##### Bug Fixes
 
-- **button, card:** fix styles (96c80d2d)
+- **card:** changed style to another block (7aed7d66)
+- **button, card:** fix styles (6006e02e)
 
 #### 0.0.4 (2024-12-10)
 

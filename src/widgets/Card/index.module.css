@@ -38,11 +38,12 @@
 
 .main-content {
     max-width: 328px;
-    height: 173px;
+
 }
 
 .image-card .main-content {
     box-sizing: border-box;
+    height: 173px;
     width: 294px;
     padding-left: 32px;
     padding-top: 40px;
