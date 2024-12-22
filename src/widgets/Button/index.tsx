@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 import styles from './index.module.css';
 export default function Button({ className, children, color = 'dark' }: { className?: string, children: ReactNode, color: 'dark' | 'light' }) {
 	return (
-		<button className={cn(styles['button'],
+		<button className={cn(styles['button'], className,
 			{
 				[styles['dark']] : color == 'dark',
 				[styles['light']] : color == 'light'

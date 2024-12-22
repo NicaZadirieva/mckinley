@@ -1,8 +1,8 @@
-#### 0.0.5 (2024-12-10)
+#### 0.0.5 (2024-12-22)
 
 ##### Chores
 
-- add TODO.md (915e7b3c)
+- add TODO.md (8ab2a0b6)
 - add forgotten CHANGELOG (784e7ebe)
 
 ##### New Features
@@ -11,6 +11,10 @@
   - add api for component (f8148699)
 - made simple loader (6ef25de2)
 - **ArticlesMockService:** add api (c6822518)
+
+##### Bug Fixes
+
+- **button, card:** fix styles (96c80d2d)
 
 #### 0.0.4 (2024-12-10)
 
